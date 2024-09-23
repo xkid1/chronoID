@@ -1,0 +1,40 @@
+{
+  "name": "chronoid",
+  "version": "1.0.0",
+  "description": " time-based aspect of the ID generation",
+  "main": "index.js",
+  "scripts": {
+    "build": "",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xkid1/chronoID.git"
+  },
+  "keywords": [
+    "uuid",
+    "snowflake",
+    "UUIDv7",
+    "chronoid"
+  ],
+  "author": "Elmer Alluad Jr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xkid1/chronoID/issues"
+  },
+  "homepage": "https://github.com/xkid1/chronoID#readme",
+  "types": "index.d.ts",
+  "engines": {
+    "node": ">=20.11.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.25.6",
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.4",
+    "@babel/register": "^7.24.6",
+    "babel-jest": "^29.7.0",
+    "babel-plugin-module-resolver": "^5.0.2",
+    "jest": "^29.7.0"
+  }
+}

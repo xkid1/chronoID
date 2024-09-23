@@ -1,0 +1,51 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings"
+  ],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "project": "./jsconfig.json",
+    "sourceType": "module",
+    "ecmaVersion": 2016,
+    "babelOptions": {
+      "presets": ["@babel/preset-env"]
+    },
+    "requireConfigFile": false
+  },
+  "plugins": ["babel", "import"],
+  "rules": {
+    "strict": ["error", "global"],
+    "no-console": "off",
+    "quotes": ["error", "double"],
+    "semi": ["error", "always"],
+    "import/no-unresolved": "error",
+    "no-unused-vars": [
+      "error",
+      {
+        "vars": "all",
+        "args": "after-used",
+        "ignoreRestSiblings": false,
+        "argsIgnorePattern": "^_"
+      }
+    ],
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "mjs": "always"
+      }
+    ]
+  },
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  }
+}
