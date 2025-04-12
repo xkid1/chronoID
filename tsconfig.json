@@ -1,0 +1,38 @@
+{
+    "compilerOptions": {
+      "types": ["node"],
+      "baseUrl": ".",
+      "target": "ESNext",
+      "allowJs": true,
+      "strict": true,
+      "outDir": "dist",
+      "esModuleInterop": true,
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "allowSyntheticDefaultImports": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "noEmitOnError": true,
+      "strictNullChecks": true,
+      "noImplicitReturns": true,
+      "noImplicitThis": true,
+      "noImplicitAny": true,
+      "strictFunctionTypes": true,
+      "strictPropertyInitialization": true,
+      "strictBindCallApply": true,
+      "checkJs": true,
+      "noLib": false,
+      "paths": {
+        "@*": ["./*"]
+      }
+    },
+    "typeAcquisition": {
+      "enable": true,
+      "include": ["node"]
+    },
+    "include": ["global.d.ts", "src/**/*.ts"],
+    "references": [],
+    "compileOnSave": false,
+    "exclude": ["node_modules", "**/node_modules/*", "dist"]
+  }
