@@ -2,7 +2,7 @@
   "name": "chronoid",
   "version": "1.0.0",
   "description": " time-based aspect of the ID generation",
-  "main": "index.js",
+  "main": "dist/src/index.js",
   "scripts": {
     "build": "",
     "test": "jest"
