@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": " time-based aspect of the ID generation",
   "main": "dist/src/index.js",
+  "type": "module",
   "scripts": {
     "build": "",
     "test": "jest"
